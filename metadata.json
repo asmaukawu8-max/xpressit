@@ -1,0 +1,6 @@
+{
+  "name": "Xpressit",
+  "description": "100% anonymous sanctuary for written stories and voice confessions.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

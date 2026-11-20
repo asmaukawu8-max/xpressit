@@ -1,0 +1,198 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-on-surface: var(--token-on-surface);
+  --color-on-surface-variant: var(--token-on-surface-variant);
+  --color-surface-container-low: var(--token-surface-container-low);
+  --color-surface-container-lowest: var(--token-surface-container-lowest);
+  --color-on-secondary-container: var(--token-on-secondary-container);
+  --color-surface-bright: var(--token-surface-bright);
+  --color-surface-tint: var(--token-surface-tint);
+  --color-error-container: var(--token-error-container);
+  --color-secondary-fixed: var(--token-secondary-fixed);
+  --color-primary-container: var(--token-primary-container);
+  --color-on-primary-container: var(--token-on-primary-container);
+  --color-outline-variant: var(--token-outline-variant);
+  --color-tertiary-fixed: var(--token-tertiary-fixed);
+  --color-primary: var(--token-primary);
+  --color-background: var(--token-background);
+  --color-secondary-container: var(--token-secondary-container);
+  --color-inverse-on-surface: var(--token-inverse-on-surface);
+  --color-surface-variant: var(--token-surface-variant);
+  --color-on-tertiary-container: var(--token-on-tertiary-container);
+  --color-surface-container-highest: var(--token-surface-container-highest);
+  --color-on-secondary-fixed-variant: var(--token-on-secondary-fixed-variant);
+  --color-primary-fixed: var(--token-primary-fixed);
+  --color-on-error-container: var(--token-on-error-container);
+  --color-surface-container-high: var(--token-surface-container-high);
+  --color-on-tertiary-fixed-variant: var(--token-on-tertiary-fixed-variant);
+  --color-outline: var(--token-outline);
+  --color-on-primary-fixed-variant: var(--token-on-primary-fixed-variant);
+  --color-on-secondary: var(--token-on-secondary);
+  --color-on-tertiary-fixed: var(--token-on-tertiary-fixed);
+  --color-surface-container: var(--token-surface-container);
+  --color-tertiary-fixed-dim: var(--token-tertiary-fixed-dim);
+  --color-secondary-fixed-dim: var(--token-secondary-fixed-dim);
+  --color-inverse-surface: var(--token-inverse-surface);
+  --color-on-primary: var(--token-on-primary);
+  --color-tertiary: var(--token-tertiary);
+  --color-on-background: var(--token-on-background);
+  --color-surface-dim: var(--token-surface-dim);
+  --color-surface: var(--token-surface);
+  --color-on-tertiary: var(--token-on-tertiary);
+  --color-secondary: var(--token-secondary);
+  --color-inverse-primary: var(--token-inverse-primary);
+  --color-primary-fixed-dim: var(--token-primary-fixed-dim);
+  --color-on-error: var(--token-on-error);
+  --color-on-secondary-fixed: var(--token-on-secondary-fixed);
+  --color-error: var(--token-error);
+  --color-on-primary-fixed: var(--token-on-primary-fixed);
+  --color-tertiary-container: var(--token-tertiary-container);
+
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+:root {
+  --token-on-surface: #131b2e;
+  --token-on-surface-variant: #464555;
+  --token-surface-container-low: #f2f3ff;
+  --token-surface-container-lowest: #ffffff;
+  --token-on-secondary-container: #60646f;
+  --token-surface-bright: #faf8ff;
+  --token-surface-tint: #4d44e3;
+  --token-error-container: #ffdad6;
+  --token-secondary-fixed: #dee2ef;
+  --token-primary-container: #4f46e5;
+  --token-on-primary-container: #dad7ff;
+  --token-outline-variant: #c7c4d8;
+  --token-tertiary-fixed: #ffdadb;
+  --token-primary: #3525cd;
+  --token-background: #faf8ff;
+  --token-secondary-container: #dee2ef;
+  --token-inverse-on-surface: #eef0ff;
+  --token-surface-variant: #dae2fd;
+  --token-on-tertiary-container: #ffd0d2;
+  --token-surface-container-highest: #dae2fd;
+  --token-on-secondary-fixed-variant: #424751;
+  --token-primary-fixed: #e2dfff;
+  --token-on-error-container: #93000a;
+  --token-surface-container-high: #e2e7ff;
+  --token-on-tertiary-fixed-variant: #92002a;
+  --token-outline: #777587;
+  --token-on-primary-fixed-variant: #3323cc;
+  --token-on-secondary: #ffffff;
+  --token-on-tertiary-fixed: #40000d;
+  --token-surface-container: #eaedff;
+  --token-tertiary-fixed-dim: #ffb2b7;
+  --token-secondary-fixed-dim: #c2c6d3;
+  --token-inverse-surface: #283044;
+  --token-on-primary: #ffffff;
+  --token-tertiary: #95002b;
+  --token-on-background: #131b2e;
+  --token-surface-dim: #d2d9f4;
+  --token-surface: #faf8ff;
+  --token-on-tertiary: #ffffff;
+  --token-secondary: #5a5e69;
+  --token-inverse-primary: #c3c0ff;
+  --token-primary-fixed-dim: #c3c0ff;
+  --token-on-error: #ffffff;
+  --token-on-secondary-fixed: #171c25;
+  --token-error: #ba1a1a;
+  --token-on-primary-fixed: #0f0069;
+  --token-tertiary-container: #bf0f3c;
+}
+
+.dark {
+  --token-on-surface: #eef0ff;
+  --token-on-surface-variant: #b4b9d1;
+  --token-surface-container-low: #171e31;
+  --token-surface-container-lowest: #1e263d;
+  --token-on-secondary-container: #a8b0c6;
+  --token-surface-bright: #242d47;
+  --token-surface-tint: #817aff;
+  --token-error-container: #680b12;
+  --token-secondary-fixed: #2b344d;
+  --token-primary-container: #5b53f0;
+  --token-on-primary-container: #eceaff;
+  --token-outline-variant: #37415c;
+  --token-tertiary-fixed: #4e1424;
+  --token-primary: #8c84ff;
+  --token-background: #0f1524;
+  --token-secondary-container: #2a334a;
+  --token-inverse-on-surface: #131b2e;
+  --token-surface-variant: #252f49;
+  --token-on-tertiary-container: #ffd0d2;
+  --token-surface-container-highest: #2e3857;
+  --token-on-secondary-fixed-variant: #cdd4e6;
+  --token-primary-fixed: #282366;
+  --token-on-error-container: #ffd8d6;
+  --token-surface-container-high: #26304b;
+  --token-on-tertiary-fixed-variant: #ffb2b7;
+  --token-outline: #79839e;
+  --token-on-primary-fixed-variant: #c3c0ff;
+  --token-on-secondary: #131b2e;
+  --token-on-tertiary-fixed: #ffdadb;
+  --token-surface-container: #1b2238;
+  --token-tertiary-fixed-dim: #ff8a97;
+  --token-secondary-fixed-dim: #8b93ab;
+  --token-inverse-surface: #eef0ff;
+  --token-on-primary: #ffffff;
+  --token-tertiary: #ff7a92;
+  --token-on-background: #eef0ff;
+  --token-surface-dim: #0b101d;
+  --token-surface: #0f1524;
+  --token-on-tertiary: #ffffff;
+  --token-secondary: #a2aac2;
+  --token-inverse-primary: #3525cd;
+  --token-primary-fixed-dim: #6f67ff;
+  --token-on-error: #ffffff;
+  --token-on-secondary-fixed: #eef0ff;
+  --token-error: #ff8989;
+  --token-on-primary-fixed: #e2dfff;
+  --token-tertiary-container: #d82b57;
+}
+
+@layer base {
+  html,
+  body {
+    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: var(--token-surface);
+    color: var(--token-on-surface);
+    -webkit-font-smoothing: antialiased;
+    overscroll-behavior-y: none;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  user-select: none;
+}
+
+.material-symbols-filled {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+  user-select: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-ping,
+  .animate-pulse,
+  .animate-bounce {
+    animation: none !important;
+  }
+}

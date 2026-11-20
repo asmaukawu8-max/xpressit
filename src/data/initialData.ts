@@ -1,0 +1,2 @@
+export const XPRESSIT_LOGO_URL =
+  'https://lh3.googleusercontent.com/aida/ALJJyrA-Q5JMNP-rTcvVfj0MZAmy2ZvhNjMLj3EeKUfHORpQsX412N5k4W06ZJe9hfqzpuLh6wvlrxWl8KkajQhUaBRtFvRL9SF5nHbYdtRXJ8xKEJSs5gosjQ9ur05XZGNbO7JgqF8QXoTaTgi3BKWhFabVrd_ARDzpy-ITYf85fCIDaLydSYRRPDorPPhkzZFtYbb3fp1kf58mfBHqerv5soJgac574owLrvlSQqNnncoYDQ';

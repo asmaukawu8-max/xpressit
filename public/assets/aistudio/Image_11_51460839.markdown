@@ -1,0 +1,234 @@
+---
+name: Vibrant Empathy
+colors:
+  surface: '#faf8ff'
+  surface-dim: '#d2d9f4'
+  surface-bright: '#faf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f3ff'
+  surface-container: '#eaedff'
+  surface-container-high: '#e2e7ff'
+  surface-container-highest: '#dae2fd'
+  on-surface: '#131b2e'
+  on-surface-variant: '#464555'
+  inverse-surface: '#283044'
+  inverse-on-surface: '#eef0ff'
+  outline: '#777587'
+  outline-variant: '#c7c4d8'
+  surface-tint: '#4d44e3'
+  primary: '#3525cd'
+  on-primary: '#ffffff'
+  primary-container: '#4f46e5'
+  on-primary-container: '#dad7ff'
+  inverse-primary: '#c3c0ff'
+  secondary: '#5a5e69'
+  on-secondary: '#ffffff'
+  secondary-container: '#dee2ef'
+  on-secondary-container: '#60646f'
+  tertiary: '#95002b'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#bf0f3c'
+  on-tertiary-container: '#ffd0d2'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#e2dfff'
+  primary-fixed-dim: '#c3c0ff'
+  on-primary-fixed: '#0f0069'
+  on-primary-fixed-variant: '#3323cc'
+  secondary-fixed: '#dee2ef'
+  secondary-fixed-dim: '#c2c6d3'
+  on-secondary-fixed: '#171c25'
+  on-secondary-fixed-variant: '#424751'
+  tertiary-fixed: '#ffdadb'
+  tertiary-fixed-dim: '#ffb2b7'
+  on-tertiary-fixed: '#40000d'
+  on-tertiary-fixed-variant: '#92002a'
+  background: '#faf8ff'
+  on-background: '#131b2e'
+  surface-variant: '#dae2fd'
+typography:
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 34px
+    fontWeight: '800'
+    lineHeight: 42px
+    letterSpacing: -0.03em
+  headline-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '800'
+    lineHeight: 36px
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '700'
+    lineHeight: 28px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 17px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.03em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system powers a modern, safe, and emotionally resonant mobile sanctuary where vulnerability meets discretion. The brand voice balances total anonymity with genuine human warmth: introspective, reassuring, modern, and non-judgmental. It avoids the harsh, chaotic darkness often associated with anonymous forums in favor of an airy, radiant, and therapeutic sanctuary.
+
+The visual style blends **Soft Modernism** with **Tactile Fluidity**:
+- **Radiant Surfaces**: Pure white cards float over warm, calming off-white backgrounds, framed with ultra-fine, hairline borders to maintain structure without rigid visual noise.
+- **Expressive Micro-Moments**: Tactile pill shapes, luminous indigo accents, and emotive coral bursts create an inviting, safe space for candid storytelling.
+- **Generous Breathing Room**: Expansive vertical rhythms and airy padding encourage unhurried, comfortable reading of deep personal reflections.
+
+## Colors
+
+The color architecture is built around emotional safety and high legibility:
+
+- **Primary (`#4F46E5` - Deep Indigo)**: Anchors identity, navigation, and key conversion paths. Represents calm depth, trust, and introspection. Tonal variants range from `#6366F1` (interactive/active states) down to `#4338CA` (pressed/focused states).
+- **Secondary (`#EEF2FF` - Soft Lavender Mist)**: Serves as low-intensity container fills, category tag backdrops, and active-state pill highlights. It cushions primary interactions with gentle contrast. Mid-tones like `#E0E7FF` and `#C7D2FE` designate subtle borders and active indicators.
+- **Tertiary (`#F43F5E` - Radiant Rose / Coral)**: Reserved strictly for heart/empathy reactions, confession highlights, active recording indicators, and high-impact emotional signals. Paired with `#FB7185` for soft glows and hover/active states.
+- **Canvas & Surfaces**: The default canvas sits at `#FAFAFC` (Warm Studio White) transitioning to `#F3F4F6` for grouped backgrounds. Interactive and narrative cards use `#FFFFFF` to ensure complete contrast and optical lift. Hairline dividers use `#E2E8F0`.
+- **Text & Hierarchy**:
+  - Primary Copy: `#0F172A` (Rich Slate/Charcoal) for effortless reading.
+  - Secondary Copy: `#334155` for contextual prompts and metadata.
+  - Muted/Timestamp Copy: `#64748B` for secondary labels, counters, and placeholders.
+
+## Typography
+
+Typography prioritizes long-form emotional legibility and casual intimacy using **Plus Jakarta Sans**.
+
+- **Generous Vertical Cadence**: Long anonymous confessions and lived experiences are prone to visual fatigue. `body-lg` and `body-md` employ extended line-height ratios (~1.6xâ€“1.65x) to create a relaxed, open reading plane.
+- **Expressive Headlines**: Large titles utilize tighter tracking (-0.02em to -0.03em) and bold/extrabold weights to convey decisive presence without feeling industrial or technical.
+- **Micro-Labels**: Badges, pseudonymous handles, and interaction counters use semi-bold weights (`label-md` and `label-sm`) with slight positive tracking (+0.01em to +0.03em) for sharp legibility on high-density mobile screens.
+
+## Layout & Spacing
+
+The layout philosophy uses a disciplined **4px / 8px incremental grid**, scaled fluidly for native mobile and responsive viewports:
+
+- **Mobile Viewport (Primary)**: 
+  - Standard edge canvas margin: `1rem` (16px), expanding to `1.25rem` (20px) on large phablet viewports.
+  - Inter-card feed spacing: `space-md` (16px) vertical stack.
+  - Safe-area compensation: Floating elements enforce a persistent bottom offset of `5.5rem` (88px) to clear the floating bottom navigation and the OS Home Indicator.
+- **Card Padding**:
+  - Story feed cards: `space-lg` (24px) internal padding, ensuring deep breathing room around long narrative bodies.
+  - Compact cards/Comments: `space-md` (16px) internal padding.
+- **Grouped Density**:
+  - Reaction badges, metadata pills, and anonymous avatar groupings maintain tight inline gaps (`space-xs` = 4px to `space-sm` = 8px) to read as cohesive functional clusters.
+
+## Elevation & Depth
+
+Depth in this system avoids heavy, muddy drop shadows, opting instead for **multi-layered, chromatic ambient diffusion**:
+
+- **Level 0 (Flat Canvas)**: `#FAFAFC` baseline.
+- **Level 1 (Card Rest State)**: Pure `#FFFFFF` surface accompanied by a hairline border (`1px solid #E2E8F0`) and an ambient glow:
+  - `box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03), 0 6px 16px -4px rgba(15, 23, 42, 0.05);`
+- **Level 2 (Interactive Drag / Active Card)**: Used during swipe gestures or feed focus:
+  - `box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.04), 0 12px 28px -6px rgba(15, 23, 42, 0.08);`
+- **Level 3 (Floating Bottom Nav & Overlays)**: High-altitude elements that skim above content:
+  - Backing: 80% opacity `#FFFFFF` with `backdrop-filter: blur(20px) saturate(180%)`.
+  - Border: `1px solid rgba(226, 232, 240, 0.8)`.
+  - Shadow: `0 12px 32px -4px rgba(15, 23, 42, 0.08), 0 4px 12px rgba(15, 23, 42, 0.03)`.
+- **Level 4 (Floating Center Action Button)**:
+  - Background: Gradient from `#6366F1` to `#4F46E5`.
+  - Shadow: Tinted brand aura: `0 8px 20px -2px rgba(79, 70, 229, 0.38), 0 2px 6px rgba(79, 70, 229, 0.24)`.
+
+## Shapes
+
+The geometric vocabulary expresses comfort, safety, and non-rigidity:
+
+- **Cards & Story Containers**: Rounded with generous radii (`16px` for small list items, `20px` to `24px` for main story feeds and confession containers).
+- **Interactive Controls & Meta**: Full capsule / pill radii (`9999px`) are standard for category badges, anonymous avatar frames, tags, filters, and audio playheads.
+- **Inputs & Textareas**: `16px` rounded corners for rich text inputs and confession creation fields, creating an inviting, notebook-like tactile canvas.
+- **Dialogs & Bottom Sheets**: Top corners rounded to `28px` to present an approachable, organic sheet transition.
+
+## Components
+
+### Buttons
+- **Primary**: Full-pill (`rounded-full`), solid `#4F46E5` fill with `#FFFFFF` text, bold `label-lg`. Micro-elevation tinted shadow. On press: `#4338CA`.
+- **Secondary**: Soft Lavender `#EEF2FF` fill with `#4F46E5` text. On press: `#E0E7FF`.
+- **Emotional/Empathy**: `#FFF1F2` fill with `#F43F5E` text and icon.
+
+### Anonymous Avatar Chips
+- Circular container (`36px` to `44px`) displaying randomized geometric or gradient art masks (e.g., Violet-to-Rose or Lavender-to-Indigo blends).
+- Accompanied by generated whimsical pseudonyms (e.g., "Thoughtful Sparrow", "Midnight Poet") set in `label-md` `#0F172A` with an adjacent relative timestamp in `label-sm` `#64748B`.
+
+### Category & Topic Pills
+- Height: `32px`. Rounded: `9999px`.
+- Padding: `0 14px`.
+- Default: `#F1F5F9` background, `#334155` text (`label-md`).
+- Selected: `#4F46E5` background, `#FFFFFF` text, or subtle `#EEF2FF` fill with `#4338CA` text and `#C7D2FE` border.
+
+### Reaction Badges
+- Capsule pills (`28px` height) with a hairline border (`1px solid #E2E8F0`) over white or subtle tinted fills.
+- Formats: `[Emoji] [Count]` (e.g., "ğšàˆˆ‹¸§i;î#ÈL‹¼'åkûî#ÈMHŠK‚‹HXİ]™Hİ]Nˆ›Ü™\ˆÚYÈÈÑÑQXÜˆÍ‘MX˜XÚÙÜ›İ[™[ÈÈX]Ú[™Ûİ[ÜÈÚ]š[X\Kİ\X\HÛÛÜ‹‚‚ˆÈÈÈ]Y[ÈØ]™Y›Ü›H^Y\‚‹H[YÜ˜]Y[È›ÚXÙKXÛÛ™™\ÜÚ[ÛˆØ\™Ë‚‹H˜XÚÙÜ›İ[™ˆÑQØ[œÙ]Ø\İ[HÛÛZ[™\ˆ
+ZYÚ
+HÚ]ÑL‘NŒ›Ü™\‹‚‹H^KÔ]\ÙHšYÙÙ\ˆÍœÚ\˜İ[\ˆÍ‘MX]ÛˆÚ]Ú]HÛ\‚‹HØ]™Y›Ü›H˜\œÎˆŞ[[Y]šXØ[™\XØ[˜\œÈÚ]›İ[™YØ\È
+ÚYˆÜØ\ˆœ
+Kˆ^YY˜\œÈ™[™\ˆ[ˆÍ‘MXÈ[œ^YY˜\œÈ™[™\ˆ[ˆĞĞ‘QLXˆ\˜][ÛˆÛİ[\ˆÚ]È[ˆX™[\ÛXÍÍ˜‚‚ˆÈÈÈ[œ]šY[È	ˆÜ™X]H›İÂ‹HÛÛ™™\ÜÚ[ÛˆØ[˜\Îˆœ˜[Y[\ÜÈÜˆİXH›Ü™\™YØ\™
+\ÛÛYÑL‘NŒ
+HÚ]Ù[™\›İ\ÈNY[™Ë‚‹H][K[[™H^\™XH\ÙÜ˜\Nˆ›ÙK[ØÚ]ÌŒMÌX^[™ÎMLĞXÙZÛ\ˆ
+•Ú]\ÈÙZYÚ[™ÈÛˆ[İ\ˆZ[™Ù^OÈŠK‚‹H[˜[ZXÈ[ÛÙÙ[XİÜˆÜš^›Û[ØÜ›Û[™Èİš\Ùˆ[ÛÙ[È\™XİH[˜ÚÜ™YX›İ™HHÛÙÙ^X›Ø\™‚‚ˆÈÈÈ›Ø][™È›İÛH˜]šYØ][Û‚‹H]XÚYØÚÈ[˜ÚÜ™YMœX›İ™HH›İÛHØÜ™Y[ˆX\™Ú[‹Ü[›š[™ÈHÙ[\ˆÚY‚‹HÛ\ÜÛ[ÜœXÈ˜[œÛXÙ[›ÙH
+Ñ‘‘‘‘‘˜]IHÜXÚ]HÚ]›\ŠHÛÛZ[š[™ÈXˆXÛÛœÈ
+ÍÍ˜[œÙ[XİYÍ‘MXXİ]™JK‚‹H
+ŠÙ[\ˆÜ™X]HˆXİ[ÛŠŠˆ[]˜]YMÚ\˜ÛHİ™\š[™ÈX›İ™HHØÚÈ[™H[ˆšXœ˜[Í‘MXÚ]HÚ]H\ÈÛ\[™HÛÙ[XšY[š[Û]]\˜K
